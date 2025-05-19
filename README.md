@@ -26,9 +26,9 @@ pod 'FiuuXDKSwift', :git => 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swif
     - Apple Pay capability in Xcode project (Project> Targets> Signing & Capabilities> + Capilibity)
     - Merchant ID (in Apple Developer portal), different from bundle identifier
 
-Params needed to use this service
+# Params needed to use this service
 
-"mp_channel": "ApplePay",
-"mp_express_mode": true,
-"mp_allowed_channels": ["ApplePay"],
-"mp_ap_merchant_ID": "<Merchant ID>",
+"mp_channel": "ApplePay"
+"mp_express_mode": true // Optional
+"mp_allowed_channels": ["ApplePay"]
+"mp_ap_merchant_ID": "Merchant ID"
