@@ -1,15 +1,15 @@
 
-#📱 Mobile XDK Fiuu (Swift)
+# 📱 Mobile XDK Fiuu (Swift)
 Fiuu Mobile XDK for iOS (Swift) is a lightweight SDK that enables seamless integration of the Fiuu payment experience into your iOS mobile applications. It supports payment initiation, status tracking, and in-app redirection — designed for developers who want a native Swift implementation of the Fiuu payment flow.
 
-#✨ Features
+# ✨ Features
 - Easy integration with native Swift apps
 - Support for payment creation and status polling
 - Secure token-based communication
 - Configurable UI options for redirection
 - Lightweight and modular
 
-#🔧 Requirements
+# 🔧 Requirements
 - iOS 13.0+
 - Swift 5+
 - Xcode 14+
@@ -28,7 +28,7 @@ pod 'FiuuXDKSwift', :git => 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swif
 
 # Params needed to use this service
 
-"mp_channel": "ApplePay"
-"mp_express_mode": true // Optional
-"mp_allowed_channels": ["ApplePay"]
-"mp_ap_merchant_ID": "Merchant ID"
+- "mp_channel": "ApplePay"
+- "mp_express_mode": true // Optional
+- "mp_allowed_channels": ["ApplePay"]
+- "mp_ap_merchant_ID": "Merchant ID"
