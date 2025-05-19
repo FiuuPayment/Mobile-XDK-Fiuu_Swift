@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FiuuXDKSwift
+import CoreTelephony
+import Foundation
+import PassKit
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class APManager : ObjectiveC.NSObject {
+  @objc deinit
+}
+extension FiuuXDKSwift.APManager : PassKit.PKPaymentAuthorizationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationController(_ controller: PassKit.PKPaymentAuthorizationController, didAuthorizePayment payment: PassKit.PKPayment, handler completion: @escaping (PassKit.PKPaymentAuthorizationResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationControllerDidFinish(_ controller: PassKit.PKPaymentAuthorizationController)
+}
+public protocol FiuuXDKDelegate : AnyObject {
+  func didFinishDeepLink()
+  func transactionResult(with results: [Swift.String : Any])
+}
+public class FiuuXDK {
+  public init()
+  public func startXDK(in viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], delegate: (any FiuuXDKSwift.FiuuXDKDelegate)?)
+  @objc deinit
+}
+extension FiuuXDKSwift.FiuuXDK {
+  public func didFinishDeepLink()
+  public func transactionResult(with results: [Swift.String : Any])
+}
