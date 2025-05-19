@@ -1,0 +1,748 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FiuuXDKSwift",
+    "printedName": "FiuuXDKSwift",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APManager",
+        "printedName": "APManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "paymentAuthorizationController",
+            "printedName": "paymentAuthorizationController(_:didAuthorizePayment:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentAuthorizationController",
+                "printedName": "PassKit.PKPaymentAuthorizationController",
+                "usr": "c:objc(cs)PKPaymentAuthorizationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKPaymentAuthorizationResult",
+                    "printedName": "PassKit.PKPaymentAuthorizationResult",
+                    "usr": "c:objc(cs)PKPaymentAuthorizationResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)APManager(im)paymentAuthorizationController:didAuthorizePayment:handler:",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC30paymentAuthorizationController_19didAuthorizePayment7handlerySo09PKPaymenteF0C_So0K0CySo0kE6ResultCctF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "paymentAuthorizationController:didAuthorizePayment:handler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentAuthorizationControllerDidFinish",
+            "printedName": "paymentAuthorizationControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentAuthorizationController",
+                "printedName": "PassKit.PKPaymentAuthorizationController",
+                "usr": "c:objc(cs)PKPaymentAuthorizationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)APManager(im)paymentAuthorizationControllerDidFinish:",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC39paymentAuthorizationControllerDidFinishyySo09PKPaymenteF0CF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "paymentAuthorizationControllerDidFinish:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager",
+        "mangledName": "$s12FiuuXDKSwift9APManagerC",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FiuuXDKDelegate",
+        "printedName": "FiuuXDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didFinishDeepLink",
+            "printedName": "didFinishDeepLink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A11XDKDelegateP17didFinishDeepLinkyyF",
+            "mangledName": "$s12FiuuXDKSwift0A11XDKDelegateP17didFinishDeepLinkyyF",
+            "moduleName": "FiuuXDKSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKDelegate>",
+            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transactionResult",
+            "printedName": "transactionResult(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A11XDKDelegateP17transactionResult4withySDySSypG_tF",
+            "mangledName": "$s12FiuuXDKSwift0A11XDKDelegateP17transactionResult4withySDySSypG_tF",
+            "moduleName": "FiuuXDKSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKDelegate>",
+            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12FiuuXDKSwift0A11XDKDelegateP",
+        "mangledName": "$s12FiuuXDKSwift0A11XDKDelegateP",
+        "moduleName": "FiuuXDKSwift",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FiuuXDK",
+        "printedName": "FiuuXDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FiuuXDK",
+                "printedName": "FiuuXDKSwift.FiuuXDK",
+                "usr": "s:12FiuuXDKSwift0A3XDKC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FiuuXDKSwift0A3XDKCACycfc",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKCACycfc",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startXDK",
+            "printedName": "startXDK(in:with:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FiuuXDKSwift.FiuuXDKDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FiuuXDKDelegate",
+                    "printedName": "any FiuuXDKSwift.FiuuXDKDelegate",
+                    "usr": "s:12FiuuXDKSwift0A11XDKDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02in4with8delegateySo16UIViewControllerC_SDySSypGAA0A11XDKDelegate_pSgtF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02in4with8delegateySo16UIViewControllerC_SDySSypGAA0A11XDKDelegate_pSgtF",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishDeepLink",
+            "printedName": "didFinishDeepLink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A3XDKC17didFinishDeepLinkyyF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC17didFinishDeepLinkyyF",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transactionResult",
+            "printedName": "transactionResult(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A3XDKC17transactionResult4withySDySSypG_tF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC17transactionResult4withySDySSypG_tF",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12FiuuXDKSwift0A3XDKC",
+        "mangledName": "$s12FiuuXDKSwift0A3XDKC",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 20,
+      "value": "\"merchantIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 13,
+      "value": "\"countryCode\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 12,
+      "value": "\"merchantID\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 9,
+      "value": "\"orderID\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 10,
+      "value": "\"billName\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 11,
+      "value": "\"billEmail\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 12,
+      "value": "\"billMobile\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 9,
+      "value": "\"tcctype\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 536,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 578,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "Dictionary",
+      "offset": 759,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10017,
+      "length": 23,
+      "value": "\"mpopenmolpaywindow:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10068,
+      "length": 22,
+      "value": "\"mpcloseallwindows:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10129,
+      "length": 43,
+      "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10195,
+      "length": 25,
+      "value": "\"mptransactionresults:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10246,
+      "length": 23,
+      "value": "\"mprunscriptonpopup:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10304,
+      "length": 26,
+      "value": "\"mppinstructioncapture:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10355,
+      "length": 20,
+      "value": "\"mpclickapbutton:\/\/\""
+    }
+  ]
+}
