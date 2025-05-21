@@ -37,7 +37,9 @@ pod 'FiuuXDKSwift', '~>, <version number>'
 
 # Params needed for Apple Pay
 
-- "mp_channel": "ApplePay"
-- "mp_express_mode": true // Optional
-- "mp_allowed_channels": ["ApplePay"]
-- "mp_ap_merchant_ID": "Merchant ID"
+```
+"mp_channel": "ApplePay"
+"mp_express_mode": true // Optional
+"mp_allowed_channels": ["ApplePay"]
+"mp_ap_merchant_ID": "Merchant ID"
+```
