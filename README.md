@@ -16,10 +16,19 @@ Fiuu Mobile XDK for iOS (Swift) is a lightweight SDK that enables seamless integ
 
 # Installation
 
-Add this line in Podfile 
-pod 'FiuuXDKSwift', :git => 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift.git'
+Add this line in Podfile
 
-# 🍎 Apple Pay Implementation
+```
+pod 'FiuuXDKSwift', :git => 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift.git'
+```
+
+or
+
+```
+pod 'FiuuXDKSwift', '~>, <version number>'
+```
+
+# Apple Pay Implementation
 
 - Apple Developer Account
 - Enable:
