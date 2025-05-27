@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary       = 'Fiuu payment xdk'
   spec.description   = 'Fiuu payment xdk, acts as bridging to webcore for doing the transaction'
   spec.homepage      = 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift'
-  spec.author        = { 'hainizam abdullah' => 'hainizam.abdullah@fiuu.com' }
+  spec.author        = { 'Fiuu Mobile Team' => 'mobile@fiuu.com' }
   spec.license       = { :type => 'MIT', :file => 'LICENSE' }
   spec.source        = { :git => 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift.git', :tag => spec.version.to_s }
   spec.swift_version = '5.0'
