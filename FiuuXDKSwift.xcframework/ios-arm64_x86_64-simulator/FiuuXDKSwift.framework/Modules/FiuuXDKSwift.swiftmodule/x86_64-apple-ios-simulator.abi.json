@@ -364,18 +364,12 @@
           {
             "kind": "Function",
             "name": "startXDK",
-            "printedName": "startXDK(in:with:delegate:)",
+            "printedName": "startXDK(with:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -397,23 +391,40 @@
                 "usr": "s:SD"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any FiuuXDKSwift.FiuuXDKDelegate)?",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "FiuuXDKDelegate",
-                    "printedName": "any FiuuXDKSwift.FiuuXDKDelegate",
-                    "usr": "s:12FiuuXDKSwift0A11XDKDelegateP"
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
-                ],
-                "usr": "s:Sq"
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02in4with8delegateySo16UIViewControllerC_SDySSypGAA0A11XDKDelegate_pSgtF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02in4with8delegateySo16UIViewControllerC_SDySSypGAA0A11XDKDelegate_pSgtF",
+            "usr": "s:12FiuuXDKSwift0A3XDKC05startC04with10completionySDySSypG_yAGctF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC04with10completionySDySSypG_yAGctF",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
               "AccessControl"

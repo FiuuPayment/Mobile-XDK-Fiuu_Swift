@@ -24,7 +24,7 @@ public protocol FiuuXDKDelegate : AnyObject {
 }
 public class FiuuXDK {
   public init()
-  public func startXDK(in viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], delegate: (any FiuuXDKSwift.FiuuXDKDelegate)?)
+  public func startXDK(with paymentDetails: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
 extension FiuuXDKSwift.FiuuXDK {
