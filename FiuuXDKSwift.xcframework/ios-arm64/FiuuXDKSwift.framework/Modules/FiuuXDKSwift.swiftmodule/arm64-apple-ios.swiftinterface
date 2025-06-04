@@ -11,13 +11,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class APManager : ObjectiveC.NSObject {
-  @objc deinit
-}
-extension FiuuXDKSwift.APManager : PassKit.PKPaymentAuthorizationControllerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationController(_ controller: PassKit.PKPaymentAuthorizationController, didAuthorizePayment payment: PassKit.PKPayment, handler completion: @escaping (PassKit.PKPaymentAuthorizationResult) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationControllerDidFinish(_ controller: PassKit.PKPaymentAuthorizationController)
-}
 @objc @_inheritsConvenienceInitializers public class FiuuXDK : ObjectiveC.NSObject {
   public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], delegate: any FiuuXDKSwift.FiuuXDKWebviewDelegate)
   @objc override dynamic public init()
