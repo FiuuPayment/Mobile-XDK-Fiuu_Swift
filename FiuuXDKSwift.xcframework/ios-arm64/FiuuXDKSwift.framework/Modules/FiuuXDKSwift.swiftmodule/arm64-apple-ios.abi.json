@@ -241,37 +241,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FiuuXDKDelegate",
-        "printedName": "FiuuXDKDelegate",
+        "name": "FiuuXDK",
+        "printedName": "FiuuXDK",
         "children": [
           {
             "kind": "Function",
-            "name": "didFinishDeepLink",
-            "printedName": "didFinishDeepLink()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A11XDKDelegateP17didFinishDeepLinkyyF",
-            "mangledName": "$s12FiuuXDKSwift0A11XDKDelegateP17didFinishDeepLinkyyF",
-            "moduleName": "FiuuXDKSwift",
-            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKDelegate>",
-            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "transactionResult",
-            "printedName": "transactionResult(with:)",
+            "name": "startXDK",
+            "printedName": "startXDK(on:with:completion:onFinishDeepLink:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -280,96 +256,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A11XDKDelegateP17transactionResult4withySDySSypG_tF",
-            "mangledName": "$s12FiuuXDKSwift0A11XDKDelegateP17transactionResult4withySDySSypG_tF",
-            "moduleName": "FiuuXDKSwift",
-            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKDelegate>",
-            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:12FiuuXDKSwift0A11XDKDelegateP",
-        "mangledName": "$s12FiuuXDKSwift0A11XDKDelegateP",
-        "moduleName": "FiuuXDKSwift",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FiuuXDK",
-        "printedName": "FiuuXDK",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FiuuXDK",
-                "printedName": "FiuuXDKSwift.FiuuXDK",
-                "usr": "s:12FiuuXDKSwift0A3XDKC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12FiuuXDKSwift0A3XDKCACycfc",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKCACycfc",
-            "moduleName": "FiuuXDKSwift",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "startXDK",
-            "printedName": "startXDK(with:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -420,16 +309,68 @@
                     "usr": "s:SD"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC05startC04with10completionySDySSypG_yAGctF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC04with10completionySDySSypG_yAGctF",
+            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02on4with10completion0E14FinishDeepLinkySo16UIViewControllerC_SDySSypGyAKcyycSgtF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02on4with10completion0E14FinishDeepLinkySo16UIViewControllerC_SDySSypGyAKcyycSgtF",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FiuuXDK",
+                "printedName": "FiuuXDKSwift.FiuuXDK",
+                "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDK(im)init",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKCACycfc",
+            "moduleName": "FiuuXDKSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -494,11 +435,18 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:12FiuuXDKSwift0A3XDKC",
+        "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDK",
         "mangledName": "$s12FiuuXDKSwift0A3XDKC",
         "moduleName": "FiuuXDKSwift",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
         ],
         "conformances": [
           {
@@ -514,6 +462,55 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
