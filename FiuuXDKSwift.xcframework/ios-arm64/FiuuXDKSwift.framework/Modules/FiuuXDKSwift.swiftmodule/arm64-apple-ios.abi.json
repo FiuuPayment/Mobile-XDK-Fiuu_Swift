@@ -240,6 +240,13 @@
         "moduleName": "FiuuXDKSwift"
       },
       {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FiuuXDK",
         "printedName": "FiuuXDK",
@@ -247,7 +254,7 @@
           {
             "kind": "Function",
             "name": "startXDK",
-            "printedName": "startXDK(on:with:completion:onFinishDeepLink:)",
+            "printedName": "startXDK(on:with:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -280,66 +287,15 @@
                 "usr": "s:SD"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([Swift.String : Any]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ]
-              },
-              {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "FiuuXDKWebviewDelegate",
+                "printedName": "any FiuuXDKSwift.FiuuXDKWebviewDelegate",
+                "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02on4with10completion0E14FinishDeepLinkySo16UIViewControllerC_SDySSypGyAKcyycSgtF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02on4with10completion0E14FinishDeepLinkySo16UIViewControllerC_SDySSypGyAKcyycSgtF",
+            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02on4with8delegateySo16UIViewControllerC_SDySSypGAA0A18XDKWebviewDelegate_ptF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02on4with8delegateySo16UIViewControllerC_SDySSypGAA0A18XDKWebviewDelegate_ptF",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
               "AccessControl"
@@ -371,67 +327,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "didFinishDeepLink",
-            "printedName": "didFinishDeepLink()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC17didFinishDeepLinkyyF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC17didFinishDeepLinkyyF",
-            "moduleName": "FiuuXDKSwift",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "transactionResult",
-            "printedName": "transactionResult(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC17transactionResult4withySDySSypG_tF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC17transactionResult4withySDySSypG_tF",
-            "moduleName": "FiuuXDKSwift",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -440,7 +335,6 @@
         "moduleName": "FiuuXDKSwift",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -551,6 +445,99 @@
         "printedName": "CoreTelephony",
         "declKind": "Import",
         "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FiuuXDKWebviewDelegate",
+        "printedName": "FiuuXDKWebviewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didFinishDeepLink",
+            "printedName": "didFinishDeepLink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP17didFinishDeepLinkyyF",
+            "mangledName": "$s12FiuuXDKSwift0A18XDKWebviewDelegateP17didFinishDeepLinkyyF",
+            "moduleName": "FiuuXDKSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
+            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transactionResult",
+            "printedName": "transactionResult(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP17transactionResult4withySDySSypG_tF",
+            "mangledName": "$s12FiuuXDKSwift0A18XDKWebviewDelegateP17transactionResult4withySDySSypG_tF",
+            "moduleName": "FiuuXDKSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
+            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP",
+        "mangledName": "$s12FiuuXDKSwift0A18XDKWebviewDelegateP",
+        "moduleName": "FiuuXDKSwift",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -664,91 +651,91 @@
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 447,
+      "offset": 454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 536,
+      "offset": 543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 578,
+      "offset": 585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 615,
+      "offset": 622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 673,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "Dictionary",
-      "offset": 759,
+      "offset": 766,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10017,
+      "offset": 10024,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10068,
+      "offset": 10075,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10129,
+      "offset": 10136,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10195,
+      "offset": 10202,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10246,
+      "offset": 10253,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10304,
+      "offset": 10311,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10355,
+      "offset": 10362,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     }

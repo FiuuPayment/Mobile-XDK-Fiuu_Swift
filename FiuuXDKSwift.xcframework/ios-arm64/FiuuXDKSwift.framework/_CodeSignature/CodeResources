@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cOT5mX9pFcqxNQkT45TpxgLKI7Y=
+		1ZIT2g88eih3dcKw3b+Wzy7chbc=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		K/ZeJpu98DnF+FVVnF/c8oFvKyg=
+		IfjK+aHKsAcizdmFvcOnHLSfH8k=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		K/ZeJpu98DnF+FVVnF/c8oFvKyg=
+		IfjK+aHKsAcizdmFvcOnHLSfH8k=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		JFTNqUGbfYAnr0pqDOWUjKDaPTI=
+		YvQBknsytU1uWqgPo1I3PiE2Cv0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,14 +35,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cS6x0ykLcs+PxTFiFdnsqnMddrJJrKXW4ma5fald9ZY=
+			aC/I67dQWa2gqrNHTkKH+S0SMgyQT3+Ro5qC+cyOxcw=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgeqfdJXfCzGNpsRBVPt8hCWN7qZArCV53SLZkXsEQY=
+			jPEcDRaBoedjhvobSewI5YURP6ZVJ5gGPTIut4OIoaE=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -56,14 +56,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgeqfdJXfCzGNpsRBVPt8hCWN7qZArCV53SLZkXsEQY=
+			jPEcDRaBoedjhvobSewI5YURP6ZVJ5gGPTIut4OIoaE=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSOG81+cR9z41e4dXq6axvzzvJZHX7m1dnQfLIT+bKI=
+			dJT9xr5j8ITRpXQ+M/VpQbaTnLSdEEewtl/4XvA+7yo=
 			</data>
 		</dict>
 	</dict>

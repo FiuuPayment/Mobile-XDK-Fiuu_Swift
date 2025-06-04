@@ -19,11 +19,11 @@ extension FiuuXDKSwift.APManager : PassKit.PKPaymentAuthorizationControllerDeleg
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationControllerDidFinish(_ controller: PassKit.PKPaymentAuthorizationController)
 }
 @objc @_inheritsConvenienceInitializers public class FiuuXDK : ObjectiveC.NSObject {
-  public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void, onFinishDeepLink: (() -> Swift.Void)? = nil)
+  public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], delegate: any FiuuXDKSwift.FiuuXDKWebviewDelegate)
   @objc override dynamic public init()
   @objc deinit
 }
-extension FiuuXDKSwift.FiuuXDK {
-  public func didFinishDeepLink()
-  public func transactionResult(with results: [Swift.String : Any])
+public protocol FiuuXDKWebviewDelegate : AnyObject {
+  func didFinishDeepLink()
+  func transactionResult(with results: [Swift.String : Any])
 }
