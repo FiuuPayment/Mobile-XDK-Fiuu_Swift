@@ -67,32 +67,35 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "Import",
         "name": "os",
         "printedName": "os",
         "declKind": "Import",
         "moduleName": "FiuuXDKSwift"
       },
       {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "FiuuXDK",
-        "printedName": "FiuuXDK",
+        "name": "FiuuXDKController",
+        "printedName": "FiuuXDKController",
         "children": [
           {
-            "kind": "Function",
-            "name": "startXDK",
-            "printedName": "startXDK(on:with:delegate:)",
+            "kind": "Var",
+            "name": "paymentDetails",
+            "printedName": "paymentDetails",
             "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
@@ -111,61 +114,675 @@
                   }
                 ],
                 "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvp",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvp",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvg",
+                "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvg",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "accessorKind": "get"
               },
               {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvs",
+                "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvs",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvM",
+                "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvM",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadView",
+            "printedName": "loadView()",
+            "children": [
+              {
                 "kind": "TypeNominal",
-                "name": "FiuuXDKWebviewDelegate",
-                "printedName": "any FiuuXDKSwift.FiuuXDKWebviewDelegate",
-                "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02on4with8delegateySo16UIViewControllerC_SDySSypGAA0A18XDKWebviewDelegate_ptF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02on4with8delegateySo16UIViewControllerC_SDySSypGAA0A18XDKWebviewDelegate_ptF",
+            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController(im)loadView",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC8loadViewyyF",
+            "moduleName": "FiuuXDKSwift",
+            "overriding": true,
+            "objc_name": "loadView",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController(im)viewDidLoad",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC11viewDidLoadyyF",
+            "moduleName": "FiuuXDKSwift",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startXDK",
+            "printedName": "startXDK(completion:onFinishDeepLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift0A13XDKControllerC8startXDK10completion16onFinishDeepLinkyys6ResultOySSs5Error_pGc_yycSgtF",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC8startXDK10completion16onFinishDeepLinkyys6ResultOySSs5Error_pGc_yycSgtF",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
-              "AccessControl"
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(nibName:bundle:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FiuuXDK",
-                "printedName": "FiuuXDKSwift.FiuuXDK",
-                "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDK"
+                "name": "FiuuXDKController",
+                "printedName": "FiuuXDKSwift.FiuuXDKController",
+                "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDK(im)init",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKCACycfc",
+            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController(im)initWithNibName:bundle:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
             "moduleName": "FiuuXDKSwift",
             "overriding": true,
             "implicit": true,
-            "objc_name": "init",
+            "objc_name": "initWithNibName:bundle:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FiuuXDKSwift.FiuuXDKController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FiuuXDKController",
+                    "printedName": "FiuuXDKSwift.FiuuXDKController",
+                    "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController(im)initWithCoder:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "FiuuXDKSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)FiuuXDKController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7webView_09createWebE4With3for14windowFeaturesSo05WKWebE0CSgAI_So0lE13ConfigurationCSo18WKNavigationActionCSo08WKWindowK0CtF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didStartProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)FiuuXDKController(im)webView:didStartProvisionalNavigation:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7webView_29didStartProvisionalNavigationySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "webView:didStartProvisionalNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)FiuuXDKController(im)webView:didFinishNavigation:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7webView_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)FiuuXDKController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7webView_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0lmG0VctF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationResponse",
+                "printedName": "WebKit.WKNavigationResponse",
+                "usr": "c:objc(cs)WKNavigationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationResponsePolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationResponsePolicy",
+                    "printedName": "WebKit.WKNavigationResponsePolicy",
+                    "usr": "c:@E@WKNavigationResponsePolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)FiuuXDKController(im)webView:decidePolicyForNavigationResponse:decisionHandler:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7webView_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So20WKNavigationResponseCySo0lmG0VctF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "webView:decidePolicyForNavigationResponse:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)FiuuXDKController(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC7webView_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0K0_ptF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDK",
-        "mangledName": "$s12FiuuXDKSwift0A3XDKC",
+        "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController",
+        "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC",
         "moduleName": "FiuuXDKSwift",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)UIViewController",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -231,137 +848,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift"
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FiuuXDKWebviewDelegate",
-        "printedName": "FiuuXDKWebviewDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didFinishDeepLink",
-            "printedName": "didFinishDeepLink()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP17didFinishDeepLinkyyF",
-            "mangledName": "$s12FiuuXDKSwift0A18XDKWebviewDelegateP17didFinishDeepLinkyyF",
-            "moduleName": "FiuuXDKSwift",
-            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
-            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "transactionResult",
-            "printedName": "transactionResult(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP17transactionResult4withySDySSypG_tF",
-            "mangledName": "$s12FiuuXDKSwift0A18XDKWebviewDelegateP17transactionResult4withySDySSypG_tF",
-            "moduleName": "FiuuXDKSwift",
-            "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
-            "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKWebviewDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP",
-        "mangledName": "$s12FiuuXDKSwift0A18XDKWebviewDelegateP",
-        "moduleName": "FiuuXDKSwift",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       }
@@ -475,93 +968,93 @@
       "value": "\"signature\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 454,
+      "offset": 314,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 543,
+      "offset": 403,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 585,
+      "offset": 445,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 622,
+      "offset": 482,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 533,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "Dictionary",
-      "offset": 766,
+      "offset": 725,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10024,
+      "offset": 10405,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10075,
+      "offset": 10456,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10136,
+      "offset": 10517,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10202,
+      "offset": 10583,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10253,
+      "offset": 10634,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10311,
+      "offset": 10692,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10362,
+      "offset": 10743,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     }

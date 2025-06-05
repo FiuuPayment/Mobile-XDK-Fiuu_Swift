@@ -11,12 +11,21 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-@objc @_inheritsConvenienceInitializers public class FiuuXDK : ObjectiveC.NSObject {
-  public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], delegate: any FiuuXDKSwift.FiuuXDKWebviewDelegate)
-  @objc override dynamic public init()
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class FiuuXDKController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var paymentDetails: [Swift.String : Any]
+  public typealias CompletionHandler = (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func loadView()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public func startXDK(completion: @escaping FiuuXDKSwift.FiuuXDKController.CompletionHandler, onFinishDeepLink: (() -> Swift.Void)? = nil)
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-public protocol FiuuXDKWebviewDelegate : AnyObject {
-  func didFinishDeepLink()
-  func transactionResult(with results: [Swift.String : Any])
+extension FiuuXDKSwift.FiuuXDKController : WebKit.WKUIDelegate, WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
 }
