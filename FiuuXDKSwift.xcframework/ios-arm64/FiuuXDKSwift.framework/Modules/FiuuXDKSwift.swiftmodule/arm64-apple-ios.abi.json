@@ -92,10 +92,16 @@
         "printedName": "FiuuXDKController",
         "children": [
           {
-            "kind": "Var",
-            "name": "paymentDetails",
-            "printedName": "paymentDetails",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FiuuXDKController",
+                "printedName": "FiuuXDKSwift.FiuuXDKController",
+                "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
@@ -116,108 +122,16 @@
                 "usr": "s:SD"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvp",
-            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvp",
+            "declKind": "Constructor",
+            "usr": "s:12FiuuXDKSwift0A13XDKControllerC4withACSDySSypG_tcfc",
+            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC4withACSDySSypG_tcfc",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
-              "HasInitialValue",
               "Preconcurrency",
               "Custom",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvg",
-                "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvg",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvs",
-                "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvs",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvM",
-                "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC14paymentDetailsSDySSypGvM",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -236,33 +150,6 @@
             "moduleName": "FiuuXDKSwift",
             "overriding": true,
             "objc_name": "loadView",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController(im)viewDidLoad",
-            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC11viewDidLoadyyF",
-            "moduleName": "FiuuXDKSwift",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -407,48 +294,6 @@
               "Preconcurrency",
               "Custom",
               "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FiuuXDKSwift.FiuuXDKController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FiuuXDKController",
-                    "printedName": "FiuuXDKSwift.FiuuXDKController",
-                    "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@FiuuXDKSwift@objc(cs)FiuuXDKController(im)initWithCoder:",
-            "mangledName": "$s12FiuuXDKSwift0A13XDKControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "FiuuXDKSwift",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
             ],
             "init_kind": "Designated"
           },
@@ -779,7 +624,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -863,198 +708,198 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
       "kind": "BooleanLiteral",
       "offset": 490,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 20,
       "value": "\"merchantIdentifier\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 688,
       "length": 13,
       "value": "\"countryCode\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 10,
       "value": "\"currency\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 751,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 784,
       "length": 8,
       "value": "\"amount\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 812,
       "length": 12,
       "value": "\"merchantID\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 844,
       "length": 9,
       "value": "\"orderID\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 873,
       "length": 10,
       "value": "\"billName\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 903,
       "length": 11,
       "value": "\"billEmail\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 934,
       "length": 12,
       "value": "\"billMobile\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 966,
       "length": 9,
       "value": "\"tcctype\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 995,
       "length": 11,
       "value": "\"signature\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
       "offset": 314,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
       "offset": 403,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 445,
+      "offset": 440,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 482,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 533,
+      "offset": 491,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 660,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "Dictionary",
-      "offset": 725,
+      "offset": 767,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10405,
+      "offset": 11124,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10456,
+      "offset": 11175,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10517,
+      "offset": 11236,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10583,
+      "offset": 11302,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10634,
+      "offset": 11353,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10692,
+      "offset": 11411,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10743,
+      "offset": 11462,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     }

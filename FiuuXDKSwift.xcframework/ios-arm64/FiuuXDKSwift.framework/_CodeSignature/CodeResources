@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		bKiXdpADexL9xVAkuO4DtpDmmds=
+		bct9WkrbxV0vw1ElVUc6wMansHI=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OMStLXn3m5c2HCuGa//t+yKxouc=
+		uMcC9teCLc+OlpopoWq/oUr5cPA=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qGcNwqe2P4DVtMMajdTiiiA9vjU=
+		tIgejOt2A2QVU+NoUIEgmanqTYk=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Zc7jQrCppY+eLMl8/YV66zHV1/w=
+		TMnrToVu3G2UIWkej5u5iGZYB+w=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qGcNwqe2P4DVtMMajdTiiiA9vjU=
+		tIgejOt2A2QVU+NoUIEgmanqTYk=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yeCa3TO90TeYTaeBji3BM82re4U=
+		CNWHeWy4nPBIhRy0h+nbGDeRAjI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLZYtP+ksPgvD7JC4B7Uvhi1RFb136RXQ8+kQNosGsY=
+			GJ5EE9cw52X0zXR8YKOBElxRHD3Ck0TJHn/3nlMUNCc=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8oint0dRQHMcCEAjGwUCtR8tshOTmofYO8uJ/KtIFtk=
+			xusVRk6BDF6+BfDqF+CbnnSgbyh5Bcdaeon1IxVgTBA=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a4L06Bj1iLIKNntgreKAn7YMClmM62NIrMr2A6+aNWY=
+			gA+T4QG33WxTtwrU8pKNXvTEZgjxUO7P1tagPWNjb4M=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8oint0dRQHMcCEAjGwUCtR8tshOTmofYO8uJ/KtIFtk=
+			xusVRk6BDF6+BfDqF+CbnnSgbyh5Bcdaeon1IxVgTBA=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EV9LeQW31DxcHX9SV7fFm4YMGmo3OOTydfDpfQRrwM=
+			zDPTbVIvv8Tn6xCbonGCXnRjohEcaYbwGd8VLuefyAg=
 			</data>
 		</dict>
 	</dict>

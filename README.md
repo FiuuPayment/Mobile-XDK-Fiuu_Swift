@@ -10,7 +10,7 @@ Fiuu Mobile XDK for iOS (Swift) is a lightweight SDK that enables seamless integ
 - Lightweight and modular
 
 # Requirements
-- iOS 13.0+
+- iOS 16.0+
 - Swift 5.0+
 - Xcode 14+
 
@@ -44,4 +44,25 @@ pod 'FiuuXDKSwift'
 "mp_express_mode": true // Optional
 "mp_allowed_channels": ["ApplePay"]
 "mp_ap_merchant_ID": "Merchant ID"
+```
+
+# Example of implementation
+
+```let vc = FiuuXDKController(with: paymentDetails)
+        
+    let navController = UINavigationController(rootViewController: vc)
+    navController.modalPresentationStyle = .fullScreen
+        
+    vc.startXDK { [weak self] result in
+        navController.dismiss(animated: true)
+        guard let self = self else { return }
+        switch result {
+        case .success(let data):
+            print("RESULTS: \(data)")
+        case .failure:
+            print("ERROR!")
+        }
+    }
+        
+    self.present(navController, animated: true)
 ```
