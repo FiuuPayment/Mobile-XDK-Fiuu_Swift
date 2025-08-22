@@ -189,14 +189,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NSMutableDictionary",
-                "printedName": "Foundation.NSMutableDictionary",
-                "usr": "c:objc(cs)NSMutableDictionary"
+                "name": "Optional",
+                "printedName": "FiuuXDKSwift.ApplePaymentData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplePaymentData",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData",
+                    "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvp",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvp",
+            "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvp",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvp",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
               "HasInitialValue",
@@ -213,14 +221,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSMutableDictionary",
-                    "printedName": "Foundation.NSMutableDictionary",
-                    "usr": "c:objc(cs)NSMutableDictionary"
+                    "name": "Optional",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplePaymentData",
+                        "printedName": "FiuuXDKSwift.ApplePaymentData",
+                        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvg",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvg",
+                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvg",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvg",
                 "moduleName": "FiuuXDKSwift",
                 "implicit": true,
                 "declAttributes": [
@@ -240,14 +256,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "NSMutableDictionary",
-                    "printedName": "Foundation.NSMutableDictionary",
-                    "usr": "c:objc(cs)NSMutableDictionary"
+                    "name": "Optional",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplePaymentData",
+                        "printedName": "FiuuXDKSwift.ApplePaymentData",
+                        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvs",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvs",
+                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvs",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvs",
                 "moduleName": "FiuuXDKSwift",
                 "implicit": true,
                 "declAttributes": [
@@ -267,8 +291,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvM",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataSo19NSMutableDictionaryCvM",
+                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvM",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvM",
                 "moduleName": "FiuuXDKSwift",
                 "implicit": true,
                 "declAttributes": [
@@ -1145,6 +1169,142 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ApplePaymentData",
+        "printedName": "ApplePaymentData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "empty",
+            "printedName": "empty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplePaymentData",
+                "printedName": "FiuuXDKSwift.ApplePaymentData",
+                "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FiuuXDKSwift16ApplePaymentDataV5emptyACvp",
+            "mangledName": "$s12FiuuXDKSwift16ApplePaymentDataV5emptyACvp",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplePaymentData",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData",
+                    "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift16ApplePaymentDataV5emptyACvg",
+                "mangledName": "$s12FiuuXDKSwift16ApplePaymentDataV5emptyACvg",
+                "moduleName": "FiuuXDKSwift",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplePaymentData",
+                "printedName": "FiuuXDKSwift.ApplePaymentData",
+                "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FiuuXDKSwift16ApplePaymentDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12FiuuXDKSwift16ApplePaymentDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FiuuXDKSwift",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift16ApplePaymentDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12FiuuXDKSwift16ApplePaymentDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FiuuXDKSwift",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV",
+        "mangledName": "$s12FiuuXDKSwift16ApplePaymentDataV",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1181,90 +1341,6 @@
       "offset": 715,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 783,
-      "length": 20,
-      "value": "\"merchantIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 823,
-      "length": 13,
-      "value": "\"countryCode\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 856,
-      "length": 10,
-      "value": "\"currency\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 886,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 919,
-      "length": 8,
-      "value": "\"amount\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 947,
-      "length": 12,
-      "value": "\"merchantID\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 979,
-      "length": 9,
-      "value": "\"orderID\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1008,
-      "length": 10,
-      "value": "\"billName\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1038,
-      "length": 11,
-      "value": "\"billEmail\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1069,
-      "length": 12,
-      "value": "\"billMobile\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1101,
-      "length": 9,
-      "value": "\"tcctype\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1130,
-      "length": 11,
-      "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
@@ -1311,51 +1387,135 @@
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11130,
+      "offset": 11647,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11181,
+      "offset": 11698,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11242,
+      "offset": 11759,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11308,
+      "offset": 11825,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11359,
+      "offset": 11876,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11417,
+      "offset": 11934,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11468,
+      "offset": 11985,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 812,
+      "length": 19,
+      "value": "\"mp_ap_merchant_ID\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 12,
+      "value": "\"mp_country\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 13,
+      "value": "\"mp_currency\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 21,
+      "value": "\"mp_bill_description\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 981,
+      "length": 11,
+      "value": "\"mp_amount\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 16,
+      "value": "\"mp_merchant_ID\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 13,
+      "value": "\"mp_order_ID\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1097,
+      "length": 14,
+      "value": "\"mp_bill_name\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 15,
+      "value": "\"mp_bill_email\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 16,
+      "value": "\"mp_bill_mobile\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 12,
+      "value": "\"mp_tcctype\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 14,
+      "value": "\"mp_signature\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",

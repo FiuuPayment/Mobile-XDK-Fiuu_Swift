@@ -16,7 +16,7 @@ public typealias PaymentCompletionHandler = (Swift.Bool) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class APManager : ObjectiveC.NSObject {
   public static let shared: FiuuXDKSwift.APManager
   final public var resultPayment: Swift.String
-  final public var paymentData: Foundation.NSMutableDictionary
+  final public var paymentData: FiuuXDKSwift.ApplePaymentData?
   final public func startPayment(completion: @escaping FiuuXDKSwift.PaymentCompletionHandler)
   @objc deinit
 }
@@ -38,4 +38,11 @@ extension FiuuXDKSwift.FiuuXDKController : WebKit.WKUIDelegate, WebKit.WKNavigat
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationActionPolicy) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+}
+public struct ApplePaymentData : Swift.Codable {
+  public var empty: FiuuXDKSwift.ApplePaymentData {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
