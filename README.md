@@ -48,7 +48,11 @@ pod 'FiuuXDKSwift'
 
 # Example of implementation
 
-```let vc = FiuuXDKController(with: paymentDetails)
+- Swift usage: -
+
+```ruby
+    let paymentDetails: [String: Any] = [:] // Should add the parameters needed
+    let vc = FiuuXDKController(with: paymentDetails)
         
     let navController = UINavigationController(rootViewController: vc)
     navController.modalPresentationStyle = .fullScreen
@@ -65,4 +69,83 @@ pod 'FiuuXDKSwift'
     }
         
     self.present(navController, animated: true)
+```
+
+- For swiftUI, you need to create a struct conform to UIViewControllerRepresentable
+- Below are the example to use the representable struct: -
+
+```ruby
+struct FiuuXDKWrapper: UIViewControllerRepresentable {
+    
+    typealias CompletionHandler = (Result<String, Error>) -> Void
+    var onResults: CompletionHandler  // Closure from SwiftUI
+    
+    func makeUIViewController(context: Context) -> UINavigationController {
+        
+        let now = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMddkkmmss"
+        let orderId = formatter.string(from: now)
+        
+        let paymentDetails: [String: Any] = [
+            //default values
+            "mp_username": "",
+            "mp_password": "",
+            "mp_merchant_ID": "",
+            "mp_app_name": "",
+            "mp_verification_key": "",
+            "mp_ap_merchant_ID": "",
+        ];
+        
+        let vc = FiuuXDKController(with: paymentDetails)
+        vc.startXDK(completion: onResults)
+        let navController = UINavigationController(rootViewController: vc)
+        return navController
+    }
+    
+    func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
+        // Optional update logic
+    }
+}
+    
+```
+
+```ruby
+struct ContentView: View {
+    
+    @State private var labelText = "Waiting for RESULTS..."
+    @State private var showVC = false
+    
+    var body: some View {
+        ZStack {
+            Color.white.edgesIgnoringSafeArea(.all)
+            VStack {
+                Text(labelText)
+                    .font(.title)
+                    .multilineTextAlignment(.center)
+                
+                Button("START") {
+                    showVC = true
+                }
+                .padding()
+                .background(Color.brown)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+            }
+            .padding()
+            .fullScreenCover(isPresented: $showVC) {
+                FiuuXDKWrapper { results in
+                    showVC = false
+                    switch results {
+                    case .success(let data):
+                        self.labelText = "RESULTS: \(data)"
+                    case .failure(_):
+                        self.labelText = "ERROR!"
+                    }
+                }
+            }
+        }
+    }
+}
+
 ```
