@@ -50,7 +50,7 @@ pod 'FiuuXDKSwift'
 
 - Swift usage: -
 
-```
+```ruby
     let paymentDetails: [String: Any] = [:] // Should add the parameters needed
     let vc = FiuuXDKController(with: paymentDetails)
         
@@ -74,7 +74,7 @@ pod 'FiuuXDKSwift'
 - For swiftUI, you need to create a struct conform to UIViewControllerRepresentable
 - Below are the example to use the representable struct: -
 
-```
+```ruby
 struct FiuuXDKWrapper: UIViewControllerRepresentable {
     
     typealias CompletionHandler = (Result<String, Error>) -> Void
@@ -110,7 +110,7 @@ struct FiuuXDKWrapper: UIViewControllerRepresentable {
     
 ```
 
-```
+```ruby
 struct ContentView: View {
     
     @State private var labelText = "Waiting for RESULTS..."
