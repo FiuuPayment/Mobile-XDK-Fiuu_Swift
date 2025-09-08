@@ -117,7 +117,7 @@ struct ContentView: View {
     @State private var showVC = false
     
     var body: some View {
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Container@*/VStack/*@END_MENU_TOKEN@*/ {
+        ZStack {
             Color.white.edgesIgnoringSafeArea(.all)
             VStack {
                 Text(labelText)
