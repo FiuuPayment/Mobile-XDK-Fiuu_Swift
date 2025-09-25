@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		UZK5Bd2qOi9OTf+8pNy6ta/cV/Q=
+		JyrkNQRh9W+8hVOc838DlmgcucQ=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		CF5IMdJYBYIR3mnoGItMXe0CFgo=
+		rRYdSrFdgkKSEhFFhbXNKxWI30k=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		deQYuomEfpyyXvWqVq16D2MDod0=
+		s7KEe1wt8qfl1uXWOfYBRi/aiNY=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CF5IMdJYBYIR3mnoGItMXe0CFgo=
+		rRYdSrFdgkKSEhFFhbXNKxWI30k=
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/FiuuXDKSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kAULcAVj7TT8/ITt7xYLCPBWnck=
+		r5VdG9kfvKOJH1ZZYY5ipEv5VHM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			moP1fjOAROdIGsLHoSCyUq1q9f7n/orqKHgZ8UEwCz8=
+			UG5yvA6v70fMCDpLkDQi8BL9cQPYwJjc2+HFx5oVjmY=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CT7nIlkphnhCmrp/21VV5cSB88WwEFFKiodE2tLjUcw=
+			zvpo+SeL42mA3UyxD5tFjcMPpiN9zFzmes9v7xd+9Gw=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			moP1fjOAROdIGsLHoSCyUq1q9f7n/orqKHgZ8UEwCz8=
+			UG5yvA6v70fMCDpLkDQi8BL9cQPYwJjc2+HFx5oVjmY=
 			</data>
 		</dict>
 		<key>Modules/FiuuXDKSwift.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eN5Ok0Z4xt7dY5MDL7UfO5k58evkxkkS69pT/H8Tqik=
+			NipGMYcBpuz8stGoE5NI+A3NTyHpX7qLUvwGzPhgZ9g=
 			</data>
 		</dict>
 	</dict>

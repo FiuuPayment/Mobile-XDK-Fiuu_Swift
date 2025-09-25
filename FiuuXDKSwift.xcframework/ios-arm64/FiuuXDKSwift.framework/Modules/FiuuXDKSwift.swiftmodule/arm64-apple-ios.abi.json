@@ -6,6 +6,26 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1303,226 +1323,213 @@
             "mangledName": "$sSE"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 604,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
       "offset": 320,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
       "offset": 409,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
       "offset": 446,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
       "offset": 497,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
       "offset": 666,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "Dictionary",
-      "offset": 773,
+      "offset": 818,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11647,
+      "offset": 11228,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11698,
+      "offset": 11279,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11759,
+      "offset": 11340,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 11406,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11876,
+      "offset": 11457,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11934,
+      "offset": 11515,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11985,
+      "offset": 11566,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 812,
       "length": 19,
       "value": "\"mp_ap_merchant_ID\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 859,
       "length": 12,
       "value": "\"mp_country\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 13,
       "value": "\"mp_currency\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 937,
       "length": 21,
       "value": "\"mp_bill_description\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 981,
       "length": 11,
       "value": "\"mp_amount\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1019,
       "length": 16,
       "value": "\"mp_merchant_ID\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1059,
       "length": 13,
       "value": "\"mp_order_ID\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 14,
       "value": "\"mp_bill_name\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1137,
       "length": 15,
       "value": "\"mp_bill_email\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1179,
       "length": 16,
       "value": "\"mp_bill_mobile\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1219,
       "length": 12,
       "value": "\"mp_tcctype\""
     },
     {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
+      "filePath": "\/Users\/haziqruslan\/Documents\/Projects\/swift\/ios-swift\/FiuuXDKSwift\/Models\/ApplePaymentData.swift",
       "kind": "StringLiteral",
       "offset": 1257,
       "length": 14,
       "value": "\"mp_signature\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
-      "kind": "BooleanLiteral",
-      "offset": 490,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
