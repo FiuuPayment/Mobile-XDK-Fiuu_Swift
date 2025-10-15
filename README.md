@@ -46,29 +46,55 @@ pod 'FiuuXDKSwift'
 "mp_ap_merchant_ID": "Merchant ID"
 ```
 
+# Standard parameters to make transaction
+
+```ruby
+"mp_username": ""
+"mp_password": ""
+"mp_merchant_ID": ""
+"mp_app_name": ""
+"mp_verification_key": ""
+"mp_order_ID": "" // Unique order id
+"mp_currency": "MYR"
+"mp_country": "MY"
+"mp_amount": "1.01" // Minimum 1.01 must be in 2 decimal points format
+"mp_channel": "multi"
+"mp_bill_description": "bill description"
+"mp_bill_name": "bill name"
+"mp_bill_email": "bill email"
+"mp_bill_mobile": "0123456789"
+
+// by defaut the value is false
+"mp_express_mode": false
+
+// by defaut the value is false
+// this will show the close button on the top right
+"mp_closebutton_display": true
+```
+
 # Example of implementation
 
 - Swift usage: -
 
 ```ruby
-    let paymentDetails: [String: Any] = [:] // Should add the parameters needed
-    let vc = FiuuXDKController(with: paymentDetails)
+let paymentDetails: [String: Any] = [:] // Should add the parameters needed
+let vc = FiuuXDKController(with: paymentDetails)
         
-    let navController = UINavigationController(rootViewController: vc)
-    navController.modalPresentationStyle = .fullScreen
+let navController = UINavigationController(rootViewController: vc)
+navController.modalPresentationStyle = .fullScreen
         
-    vc.startXDK { [weak self] result in
-        navController.dismiss(animated: true)
-        guard let self = self else { return }
-        switch result {
-        case .success(let data):
-            print("RESULTS: \(data)")
-        case .failure:
-            print("ERROR!")
-        }
+vc.startXDK { [weak self] result in
+    navController.dismiss(animated: true)
+    guard let self = self else { return }
+    switch result {
+    case .success(let data):
+        print("RESULTS: \(data)")
+    case .failure:
+        print("ERROR!")
     }
+}
         
-    self.present(navController, animated: true)
+self.present(navController, animated: true)
 ```
 
 - For swiftUI, you need to create a struct conform to UIViewControllerRepresentable
