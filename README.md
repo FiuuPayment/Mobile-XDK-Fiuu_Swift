@@ -46,7 +46,7 @@ pod 'FiuuXDKSwift'
 "mp_ap_merchant_ID": "Merchant ID"
 ```
 
-# Standard parameters to make transaction
+# Parameters needed for transaction
 
 ```ruby
 "mp_username": ""
@@ -64,6 +64,7 @@ pod 'FiuuXDKSwift'
 "mp_bill_email": "bill email"
 "mp_bill_mobile": "0123456789"
 
+// Optional
 // by defaut the value is false
 "mp_express_mode": false
 
