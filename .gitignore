@@ -12,6 +12,14 @@
 **/*.playground/**/timeline.xctimeline
 .idea/
 
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+Packages/
+Package.resolved
+.swiftpm/xcode/
+
 # Build
 **/.build/
 **/Build/
