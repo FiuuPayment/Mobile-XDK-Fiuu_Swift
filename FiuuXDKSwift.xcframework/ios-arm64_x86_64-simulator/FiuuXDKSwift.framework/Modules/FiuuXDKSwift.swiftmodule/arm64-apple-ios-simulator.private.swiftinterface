@@ -2,7 +2,6 @@
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target arm64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FiuuXDKSwift
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
-import CoreTelephony
 import Foundation
 import PassKit
 import Swift
@@ -12,13 +11,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-public struct ApplePaymentData : Swift.Codable {
-  public var empty: FiuuXDKSwift.ApplePaymentData {
-    get
-  }
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public typealias PaymentCompletionHandler = (Swift.Bool) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class APManager : ObjectiveC.NSObject {
   public static let shared: FiuuXDKSwift.APManager
@@ -31,11 +23,16 @@ extension FiuuXDKSwift.APManager : PassKit.PKPaymentAuthorizationControllerDeleg
   @_Concurrency.MainActor @preconcurrency @objc final public func paymentAuthorizationController(_ controller: PassKit.PKPaymentAuthorizationController, didAuthorizePayment payment: PassKit.PKPayment, handler completion: @escaping (PassKit.PKPaymentAuthorizationResult) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc final public func paymentAuthorizationControllerDidFinish(_ controller: PassKit.PKPaymentAuthorizationController)
 }
+public protocol FiuuXDKControllerDelegate : AnyObject {
+  func didReceiveResults(_ results: Swift.Result<Swift.String, any Swift.Error>)
+  func didFinishDeepLink()
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FiuuXDKController : UIKit.UIViewController {
   public typealias CompletionHandler = (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any FiuuXDKSwift.FiuuXDKControllerDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(with details: [Swift.String : Any])
   @_Concurrency.MainActor @preconcurrency @objc override final public func loadView()
-  @_Concurrency.MainActor @preconcurrency final public func startXDK(completion: @escaping FiuuXDKSwift.FiuuXDKController.CompletionHandler, onFinishDeepLink: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency final public func startXDK(completion: FiuuXDKSwift.FiuuXDKController.CompletionHandler? = nil, onFinishDeepLink: (() -> Swift.Void)? = nil)
   @objc deinit
 }
 extension FiuuXDKSwift.FiuuXDKController : WebKit.WKUIDelegate, WebKit.WKNavigationDelegate {
@@ -45,4 +42,11 @@ extension FiuuXDKSwift.FiuuXDKController : WebKit.WKUIDelegate, WebKit.WKNavigat
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationActionPolicy) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+}
+public struct ApplePaymentData : Swift.Codable {
+  public var empty: FiuuXDKSwift.ApplePaymentData {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
