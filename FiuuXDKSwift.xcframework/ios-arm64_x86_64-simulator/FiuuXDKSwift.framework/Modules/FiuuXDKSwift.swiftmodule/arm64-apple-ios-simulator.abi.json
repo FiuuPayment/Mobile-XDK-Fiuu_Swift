@@ -6,533 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PassKit",
-        "printedName": "PassKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "APManager",
-        "printedName": "APManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "APManager",
-                "printedName": "FiuuXDKSwift.APManager",
-                "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FiuuXDKSwift9APManagerC6sharedACvpZ",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC6sharedACvpZ",
-            "moduleName": "FiuuXDKSwift",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APManager",
-                    "printedName": "FiuuXDKSwift.APManager",
-                    "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC6sharedACvgZ",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC6sharedACvgZ",
-                "moduleName": "FiuuXDKSwift",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "resultPayment",
-            "printedName": "resultPayment",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvp",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvp",
-            "moduleName": "FiuuXDKSwift",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvg",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvg",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvs",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvs",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvM",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvM",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "paymentData",
-            "printedName": "paymentData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FiuuXDKSwift.ApplePaymentData?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ApplePaymentData",
-                    "printedName": "FiuuXDKSwift.ApplePaymentData",
-                    "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvp",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvp",
-            "moduleName": "FiuuXDKSwift",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FiuuXDKSwift.ApplePaymentData?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApplePaymentData",
-                        "printedName": "FiuuXDKSwift.ApplePaymentData",
-                        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvg",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvg",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FiuuXDKSwift.ApplePaymentData?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApplePaymentData",
-                        "printedName": "FiuuXDKSwift.ApplePaymentData",
-                        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvs",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvs",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvM",
-                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvM",
-                "moduleName": "FiuuXDKSwift",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "startPayment",
-            "printedName": "startPayment(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift9APManagerC12startPayment10completionyySbc_tF",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC12startPayment10completionyySbc_tF",
-            "moduleName": "FiuuXDKSwift",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "paymentAuthorizationController",
-            "printedName": "paymentAuthorizationController(_:didAuthorizePayment:handler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PKPaymentAuthorizationController",
-                "printedName": "PassKit.PKPaymentAuthorizationController",
-                "usr": "c:objc(cs)PKPaymentAuthorizationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PKPayment",
-                "printedName": "PassKit.PKPayment",
-                "usr": "c:objc(cs)PKPayment"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PKPaymentAuthorizationResult",
-                    "printedName": "PassKit.PKPaymentAuthorizationResult",
-                    "usr": "c:objc(cs)PKPaymentAuthorizationResult"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@FiuuXDKSwift@objc(cs)APManager(im)paymentAuthorizationController:didAuthorizePayment:handler:",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC30paymentAuthorizationController_19didAuthorizePayment7handlerySo09PKPaymenteF0C_So0K0CySo0kE6ResultCctF",
-            "moduleName": "FiuuXDKSwift",
-            "objc_name": "paymentAuthorizationController:didAuthorizePayment:handler:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "paymentAuthorizationControllerDidFinish",
-            "printedName": "paymentAuthorizationControllerDidFinish(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PKPaymentAuthorizationController",
-                "printedName": "PassKit.PKPaymentAuthorizationController",
-                "usr": "c:objc(cs)PKPaymentAuthorizationController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@FiuuXDKSwift@objc(cs)APManager(im)paymentAuthorizationControllerDidFinish:",
-            "mangledName": "$s12FiuuXDKSwift9APManagerC39paymentAuthorizationControllerDidFinishyySo09PKPaymenteF0CF",
-            "moduleName": "FiuuXDKSwift",
-            "objc_name": "paymentAuthorizationControllerDidFinish:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager",
-        "mangledName": "$s12FiuuXDKSwift9APManagerC",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "AccessControl",
-          "Final",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1534,32 +1007,538 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APManager",
+        "printedName": "APManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APManager",
+                "printedName": "FiuuXDKSwift.APManager",
+                "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FiuuXDKSwift9APManagerC6sharedACvpZ",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC6sharedACvpZ",
+            "moduleName": "FiuuXDKSwift",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APManager",
+                    "printedName": "FiuuXDKSwift.APManager",
+                    "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC6sharedACvgZ",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC6sharedACvgZ",
+                "moduleName": "FiuuXDKSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resultPayment",
+            "printedName": "resultPayment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvp",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvp",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvg",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvg",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvs",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvs",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC13resultPaymentSSvM",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC13resultPaymentSSvM",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentData",
+            "printedName": "paymentData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FiuuXDKSwift.ApplePaymentData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplePaymentData",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData",
+                    "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvp",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvp",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplePaymentData",
+                        "printedName": "FiuuXDKSwift.ApplePaymentData",
+                        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvg",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvg",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FiuuXDKSwift.ApplePaymentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplePaymentData",
+                        "printedName": "FiuuXDKSwift.ApplePaymentData",
+                        "usr": "s:12FiuuXDKSwift16ApplePaymentDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvs",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvs",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvM",
+                "mangledName": "$s12FiuuXDKSwift9APManagerC11paymentDataAA012ApplePaymentE0VSgvM",
+                "moduleName": "FiuuXDKSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startPayment",
+            "printedName": "startPayment(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FiuuXDKSwift9APManagerC12startPayment10completionyySbc_tF",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC12startPayment10completionyySbc_tF",
+            "moduleName": "FiuuXDKSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentAuthorizationController",
+            "printedName": "paymentAuthorizationController(_:didAuthorizePayment:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentAuthorizationController",
+                "printedName": "PassKit.PKPaymentAuthorizationController",
+                "usr": "c:objc(cs)PKPaymentAuthorizationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKPaymentAuthorizationResult",
+                    "printedName": "PassKit.PKPaymentAuthorizationResult",
+                    "usr": "c:objc(cs)PKPaymentAuthorizationResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)APManager(im)paymentAuthorizationController:didAuthorizePayment:handler:",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC30paymentAuthorizationController_19didAuthorizePayment7handlerySo09PKPaymenteF0C_So0K0CySo0kE6ResultCctF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "paymentAuthorizationController:didAuthorizePayment:handler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentAuthorizationControllerDidFinish",
+            "printedName": "paymentAuthorizationControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentAuthorizationController",
+                "printedName": "PassKit.PKPaymentAuthorizationController",
+                "usr": "c:objc(cs)PKPaymentAuthorizationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FiuuXDKSwift@objc(cs)APManager(im)paymentAuthorizationControllerDidFinish:",
+            "mangledName": "$s12FiuuXDKSwift9APManagerC39paymentAuthorizationControllerDidFinishyySo09PKPaymenteF0CF",
+            "moduleName": "FiuuXDKSwift",
+            "objc_name": "paymentAuthorizationControllerDidFinish:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FiuuXDKSwift@objc(cs)APManager",
+        "mangledName": "$s12FiuuXDKSwift9APManagerC",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
-      "kind": "BooleanLiteral",
-      "offset": 490,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 604,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "StringLiteral",
-      "offset": 715,
-      "length": 2,
-      "value": "\"\""
-    },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "BooleanLiteral",
@@ -1586,7 +1565,7 @@
       "kind": "StringLiteral",
       "offset": 653,
       "length": 5,
-      "value": "\"1.0\""
+      "value": "\"1.1\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
@@ -1605,49 +1584,49 @@
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11033,
+      "offset": 11062,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11084,
+      "offset": 11113,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11145,
+      "offset": 11174,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11211,
+      "offset": 11240,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11262,
+      "offset": 11291,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11320,
+      "offset": 11349,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11371,
+      "offset": 11400,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     },
@@ -1734,6 +1713,27 @@
       "offset": 1257,
       "length": 14,
       "value": "\"mp_signature\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }

@@ -6,26 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiuuXDKSwift",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1534,18 +1514,31 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
-      "kind": "BooleanLiteral",
-      "offset": 490,
-      "length": 5,
-      "value": "false"
-    },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
@@ -1586,7 +1579,7 @@
       "kind": "StringLiteral",
       "offset": 653,
       "length": 5,
-      "value": "\"1.0\""
+      "value": "\"1.1\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
@@ -1605,49 +1598,49 @@
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11033,
+      "offset": 11062,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11084,
+      "offset": 11113,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11145,
+      "offset": 11174,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11211,
+      "offset": 11240,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11262,
+      "offset": 11291,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11320,
+      "offset": 11349,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 11371,
+      "offset": 11400,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     },
@@ -1734,6 +1727,13 @@
       "offset": 1257,
       "length": 14,
       "value": "\"mp_signature\""
+    },
+    {
+      "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

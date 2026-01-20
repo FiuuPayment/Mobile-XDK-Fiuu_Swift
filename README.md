@@ -30,6 +30,10 @@ Add this line to your Podfile:
 pod 'FiuuXDKSwift'
 ```
 
+or
+
+Add package using Swift Package Manager, just paste this repo url in the dependencies search box.
+
 # Apple Pay Implementation
 
 - Apple Developer Account
@@ -134,7 +138,6 @@ struct FiuuXDKWrapper: UIViewControllerRepresentable {
         // Optional update logic
     }
 }
-    
 ```
 
 ```ruby
@@ -174,8 +177,43 @@ struct ContentView: View {
         }
     }
 }
-
 ```
+
+Delegate pattern added to read the results of the transaction. Below shown example of implementation: - 
+
+```ruby
+let paymentDetails: [String: Any] = [:]
+
+let vc = FiuuXDKController(with: paymentDetails)
+vc.delegate = self
+        
+navController = UINavigationController(rootViewController: vc)
+navController?.modalPresentationStyle = .fullScreen
+        
+vc.startXDK() // No need to use completion handler if decided to use delegate pattern
+```
+
+Add this extension class to read the results from XDK
+
+```ruby
+extension ViewController: FiuuXDKControllerDelegate {
+    func didReceiveResults(_ results: Result<String, any Error>) {
+        
+        navController?.dismiss(animated: true)
+        
+        switch (results) {
+        case .success(let value):
+            resultLabeL.text = "Success: \(value)"
+        case .failure(let error):
+            resultLabeL.text = "\(error)"
+        }
+    }
+    
+    func didFinishDeepLink() {}
+}
+```
+
+
 # Environment Configuration
 
 The library supports multiple environments. You can configure which environment to use by setting the `mp_core_env` value.
