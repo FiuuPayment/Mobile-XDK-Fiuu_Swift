@@ -10,5 +10,18 @@
 			<integer>0</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>Mobile-XDK-Fiuu_Swift</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>Mobile-XDK-Fiuu_SwiftTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
