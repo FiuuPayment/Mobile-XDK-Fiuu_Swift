@@ -1656,49 +1656,49 @@
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10045,
+      "offset": 10076,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10096,
+      "offset": 10127,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10157,
+      "offset": 10188,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10223,
+      "offset": 10254,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10274,
+      "offset": 10305,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10332,
+      "offset": 10363,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/hainizam.abdullah\/Documents\/Workspace\/Projects\/ios\/ios-swift\/FiuuXDKSwift\/FiuuXDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10383,
+      "offset": 10414,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     }
