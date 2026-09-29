@@ -12,7 +12,7 @@ Fiuu Mobile XDK for iOS (Swift) is a lightweight SDK that enables seamless integ
 # Requirements
 - iOS 16.0+
 - Swift 5.0+
-- Xcode 14+
+- Xcode 16+
 
 # Installation
 
