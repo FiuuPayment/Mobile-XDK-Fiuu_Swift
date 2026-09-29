@@ -12,7 +12,7 @@ Fiuu Mobile XDK for iOS (Swift) is a lightweight SDK that enables seamless integ
 # Requirements
 - iOS 16.0+
 - Swift 5.0+
-- Xcode 14+
+- Xcode 16+
 
 # Installation
 
@@ -129,9 +129,7 @@ struct FiuuXDKWrapper: UIViewControllerRepresentable {
         ];
         
         let vc = FiuuXDKController(with: paymentDetails)
-        vc.startXDK(completion: onResults,
-         // Only for TNG eWallet, need to close manually
-         onFinishDeepLink: { vc.closePayment() })
+        vc.startXDK(completion: onResults)
         let navController = UINavigationController(rootViewController: vc)
         return navController
     }
@@ -216,6 +214,29 @@ extension ViewController: FiuuXDKControllerDelegate {
         vc.closePayment()
     }
 }
+```
+
+Add this block for Fiuu Cash implementation, it need to check the value of pInstruction.
+
+```ruby
+
+var isPaymentInstruction = false
+if let jsonData = data.data(using: .utf8),
+    let json = try? JSONSerialization.jsonObject(with: jsonData) as? [String: Any] {
+    if let num = json["pInstruction"] as? NSNumber {
+        isPaymentInstruction = num.intValue == 1
+    } else if let str = json["pInstruction"] as? String {
+        isPaymentInstruction = Int(str) == 1
+    }
+}
+                
+if isPaymentInstruction && !isFiuuCashPresented {
+    isFiuuCashPresented = true
+    return
+}
+                
+vc.closePayment()
+
 ```
 
 # Environment Configuration
