@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "FiuuXDKSwift",
             url: "https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift/releases/download/2.0.2/FiuuXDKSwift.xcframework.zip",
-            checksum: "4f085af4a5f88f973ccfd0c6a0d03cb771de04f01d1c10c1e3a1b43983174565"
+            checksum: "8bc991cce4ff7dce75f9328687ca4c6f4687f8f7780393b9935538b6200d3d10"
         )
     ]
 )
