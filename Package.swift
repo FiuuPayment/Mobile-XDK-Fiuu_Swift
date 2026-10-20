@@ -17,6 +17,10 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "FiuuXDKSwift", path: "FiuuXDKSwift.xcframework"),
+        .binaryTarget(
+            name: "FiuuXDKSwift",
+            url: "https://github.com/kusukry/Mobile-XDK-Fiuu_Swift/releases/download/2.0.0/FiuuXDKSwift.xcframework.zip",
+            checksum: "<sha256-checksum>"
+        )
     ]
 )
