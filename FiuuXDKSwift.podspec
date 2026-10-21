@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'FiuuXDKSwift'
-  spec.version       = '2.0.2'
+  spec.version       = '2.0.3'
   spec.summary       = 'Fiuu payment xdk'
   spec.description   = 'New Natively Fiuu XDK on Swift framework to proceed on payment'
   spec.homepage      = 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift'
