@@ -19,8 +19,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "FiuuXDKSwift",
-            url: "https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift/releases/download/2.0.3/FiuuXDKSwift.xcframework.zip",
-            checksum: "4fc4f0611763e00a716fc32332bbc901a6311b67a2bc8c62c97be357ca7932b0"
+            url: "https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift/releases/download/1.1.4/FiuuXDKSwift.xcframework.zip",
+            checksum: "a06fa823df67bddde31cc0e969ceaefedca4fc8d05433eccf476aba0c4ce5690"
         )
     ]
 )
